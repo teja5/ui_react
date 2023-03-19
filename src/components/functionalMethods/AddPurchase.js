@@ -80,7 +80,7 @@ const AddPurchase = () => {
             body: JSON.stringify(requetJson)
 
         }
-        const response = await fetch('http://184.72.6.13:8080/purchaseapp/addPurchase', requestOptions);
+        const response = await fetch('http://184.72.6.13:8080/purchaseapp/addPurhase', requestOptions);
         if (response.ok) {
             const data = await response.json();
 
