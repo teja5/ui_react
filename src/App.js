@@ -42,6 +42,7 @@ function App() {
         <Route path="/addPurchase">
           <AddPurchase></AddPurchase>
         </Route>
+        //to update
 
 
       </Switch>
